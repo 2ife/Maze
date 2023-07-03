@@ -1,0 +1,33 @@
+@import "./reset.css";
+
+body {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.stageContainer {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 10vh;
+  border-bottom: 0.1vh black solid;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+.stageContainer_stageBtn {
+  width: 10%;
+  height: 60%;
+  margin: 0 2%;
+  border: 0.5vh black solid;
+  border-radius: 5%;
+}
+.stageContainer_stageBtn:active{
+    padding-bottom: 0.5%;
+}
+#gameZone {
+  margin-top: 10vh;
+  border: 0.1vh black solid;
+}
