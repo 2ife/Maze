@@ -10,24 +10,19 @@ body {
   position: fixed;
   top: 0;
   width: 100vw;
-  height: 10vh;
+  height: 8vh;
   border-bottom: 0.1vh black solid;
   display: flex;
-  flex-flow: row nowrap;
   justify-content: flex-start;
   align-items: center;
 }
-.stageContainer_stageBtn {
-  width: 10%;
-  height: 60%;
-  margin: 0 2%;
-  border: 0.5vh black solid;
-  border-radius: 5%;
-}
-.stageContainer_stageBtn:active{
-    padding-bottom: 0.5%;
+.stageContainer_label{
+  width: 15%;
+  font-size: 3vh;
+  font-weight: 900;
+  text-align: center;
 }
 #gameZone {
-  margin-top: 10vh;
+  margin-top: 9vh;
   border: 0.1vh black solid;
 }
